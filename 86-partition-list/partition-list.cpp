@@ -27,10 +27,8 @@ public:
                 Half = Half->next;
             }
 
-
             head = head->next;
         }
-
 
         firstHalf->next = ans2->next;
 
