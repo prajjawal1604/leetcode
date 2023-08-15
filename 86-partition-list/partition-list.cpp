@@ -12,7 +12,6 @@ class Solution {
 public:
     ListNode* partition(ListNode* head, int x) {
         ListNode *firstHalf=new ListNode(0), *Half=new ListNode(0);
-        // firstHalf = new ListNode(0); Half = new ListNode(0);
         ListNode *ans = firstHalf, *ans2 = Half;
         
         while(head != NULL){
