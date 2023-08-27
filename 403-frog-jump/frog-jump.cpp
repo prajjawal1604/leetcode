@@ -12,9 +12,7 @@ public:
 
         if(dp[i][k] != -1) return dp[i][k];
 
-        // cout<<i<<" "<<k<<" "<<des<<endl;
-
-        return dp[i][k] = jump(stones,i,k-1,des+k-1,dp) || jump(stones,i,k,des+k,dp) || jump(stones,i,k+1,des+k+1,dp);
+        return dp[i][k] = jump(stones,i,k-1,des+k-1,dp) | jump(stones,i,k,des+k,dp) | jump(stones,i,k+1,des+k+1,dp);
         
 
     }
