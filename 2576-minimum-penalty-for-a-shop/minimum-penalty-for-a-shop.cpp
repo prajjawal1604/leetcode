@@ -22,7 +22,7 @@ public:
         // for(int i=0;i<n+1;++i)
         //     cout<<no[i]<<" ";
 
-        cout<<endl;
+        // cout<<endl;
 
         diff=no[n];
         for(int i=n;i>=0;--i){
